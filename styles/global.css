@@ -803,6 +803,57 @@ article h3 {
     transition: 0.3s;
 }
 
+@media (max-width: 480px) {
+    .cursos-cards {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .cursos-cards {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .cursos-cards-no-border {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .img-cursos img {
+        width:250px;
+    }
+
+    .text-cursos-cards {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .cursos-cards {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cursos-cards-no-border {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .img-cursos img {
+        width:250px;
+    }
+
+    .text-cursos-cards {
+        width: 50%;
+        margin: 0;
+    }
+}
 
 /* FOOTER */
 
