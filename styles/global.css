@@ -67,13 +67,22 @@ header nav {
     }
 
     .menu {
-        gap: 10%;
+        width: 100%;
+        align-items: center;
         text-align: center;
+        margin: 0 auto;
     }
 }
 
 @media (max-width: 768px) {
-    
+    header {
+        width: 100%;
+    }
+
+    .menu {
+        width: 70%;
+        align-items: center;
+    }
 }
 
 
@@ -361,6 +370,10 @@ header nav {
     margin: 5% 10%;
 }
 
+.container-formulario {
+    display: flex;
+}
+
 .formulario {
     width: 45%;
     display: flex;
@@ -414,6 +427,57 @@ header nav {
     background-color: #c50b49;
     transition: 0.3s;
 }
+
+@media only screen and (max-width: 480px) {
+    .container-formulario {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .img-container {
+        width: 100%;
+        margin: 0 auto;
+        pad: 0;
+        text-align: left;
+    }
+
+    .img-container img {
+        height: 300px;
+    }
+
+    .formulario {
+        width: 100%;
+        height: 700px;
+        margin: 0 auto;
+    }
+
+    .formulario button {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container-formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formulario {
+        width: 100%;
+        height: 700px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .img-container img {
+        height: 300px;
+    }
+
+}
+
+
 
 /* MAIN - POST */
 
@@ -526,6 +590,14 @@ article h3 {
         width: 80%;
         padding: 2% 0;
         margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .blog-section {
+        width: 50%;
+        margin: 0;
+        padding: 10%;
     }
 }
 
@@ -751,4 +823,11 @@ footer {
         margin: 0;
     }
 
+}
+
+@media (max-width: 768px) {
+    
+    .buttons-footer a {
+        font-size: 10px;
+    }
 }
