@@ -629,6 +629,36 @@ article h3 {
     .blog-section {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        text-align:center;
+        width:100%;
+        display:block;
+        margin:auto;
+        gap: 0;
+        padding: 0 auto
+        ;
+    }
+
+    .blog-section div h1, p {
+        width: 100%;
+        margin: 0 auto;
+        display: in;
+    }
+
+    .blog-section {
+        margin: 0;
+        padding: 0;
+    }
+
+    .blog-section div {
+        display: inline-block;
+    }
+
+    .blog-section img {
+        display: none;
+        width: 100%;
     }
 
     .blog-cards-section {
