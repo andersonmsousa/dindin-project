@@ -294,15 +294,17 @@ header nav {
         flex-direction: column;
         flex-wrap: wrap;
         width: 100%;
+        justify-content: center;
+        align-items: center;
     }
 
     .img-banner-inicio img {
         width: 100%;
+        margin: 10% 0 auto;
     }
 
     .img-banner-inicio {
-        width: 100%;
-        margin: 10% 0;
+        width: 80%;
     }
 
     .text-banner-inicio {
@@ -324,6 +326,10 @@ header nav {
         width: 100%;
         margin: 0 auto;
         text-align: center;
+    }
+
+    .section-cards img {
+        width: 70%;
     }
 
     .about-card {
@@ -362,6 +368,25 @@ header nav {
     .conteudo {
         padding: 0;
     }
+}
+
+@media (max-width: 768px) {
+   .banner-inicio {
+       width: 90%;
+   } 
+
+   .img-banner-inicio img {
+       width: 100%;
+   }
+
+   .card-conteudo {
+       width: 30%;
+   }
+
+   .card-conteudo img {
+       width: 100%;
+   }
+   
 }
 
 /* MAIN - FORMULÁRIO */
