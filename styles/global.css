@@ -575,7 +575,7 @@ article h3 {
     font-size: 17px;
 }
 
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
     .blog-section {
         display: flex;
         flex-direction: column;
@@ -608,6 +608,7 @@ article h3 {
     margin: 0 auto;
     padding: 5% 0;
     gap: 10%;
+    display: flex;
 }
 
 .curso-section div {
@@ -671,6 +672,63 @@ article h3 {
 .aula-descricao p {
     font-size: 20px;
     margin: 2% 0;
+}
+
+@media (max-width: 480px) {
+    .curso-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .curso-section img {
+        margin: 10% 0;
+    }
+
+    .aula-card {
+        display: flex;
+        flex-direction: column;
+        margin: 2% 0;
+    }
+
+    .aula-card-no-border {
+        display: flex;
+        flex-direction: column;
+        margin: 2% 0;
+    }
+
+    .video-aula {
+        width: 100%;
+    }
+
+    .aula-descricao {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .curso-section {
+        justify-content: center;
+    }
+
+    .aula-card {
+        display: flex;
+        flex-direction: column;
+        margin: 2% 0;
+    }
+
+    .aula-card-no-border {
+        display: flex;
+        flex-direction: column;
+        margin: 2% 0;
+    }
+
+    .video-aula {
+        width: 100%;
+    }
+
+    .aula-descricao {
+        width: 100%;
+    }
 }
 
 /* MAIN CURSOS */
