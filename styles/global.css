@@ -359,10 +359,17 @@ header nav {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .card-conteudo img {
+        float: none;
+        width: 100%;
     }
 
     .card-conteudo {
         width: 100%;
+        float: none;
     }
 
     .conteudo {
